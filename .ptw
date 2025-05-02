@@ -1,0 +1,4 @@
+--nobeep
+--ignore=.venv
+--ignore=.pytest_cache
+--ignore=__pycache__

@@ -11,7 +11,7 @@ class TestGreetProgrammer:
     '''function greet_programmer()'''
 
     def test_greet_programmer(self):
-        '''prints "Hello, programmer!"'''
+        '''prints "  print(f"Hi {name}")"'''
         captured_out = io.StringIO()
         sys.stdout = captured_out
         greet_programmer()
